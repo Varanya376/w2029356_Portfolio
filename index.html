@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Career Portfolio</title>
+    <!-- Font Awesome for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <main class="left-content">
+            <!-- Home Section -->
+            <section id="home" class="hero">
+                <h1>Welcome to my Portfolio</h1>
+                <p>Hello, I am Varanya Saluja, an aspiring Computer Scientist and a passionate Classical Dancer.</p>
+            </section>
+
+            <!-- Featured Projects Section -->
+            <section class="featured-projects">
+                <h2>Featured Projects</h2>
+                <div class="project-card">
+                    <h3>Project Title 1</h3>
+                    <p>Brief description of the project, you role, and key achievements.</p>
+                    <a href="#">View Projects</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project Title 2</h3>
+                    <p>Brief description of the project, you role, and key achievements.</p>
+                    <a href="#">View Projects</a>
+                </div>
+            </section>
+
+            <!-- Skills & Expertise Section -->
+            <section id="skills" class="skills">
+                <h2>Skills & Expertise</h2>
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Cybersecurity</li>
+                    <li>Event Planning & Management</li>
+                    <li>Project Management</li>
+                    <li>Communication & Outreach</li>
+                    <!-- Add more skills as needed -->
+                </ul>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about">
+                <h1>About Me</h1>
+                <p>A detailed paragraph about your background, education, and career journey.</p>
+
+                <h2>My Aspirations</h2>
+                <p>To create innovative solutions in AI and cybersecurity while managing impactful events that inspire and connect people.</p>
+
+                <h2>My Values</h2>
+                <ul>
+                    <li>Professional Goals</li>
+                    <li>Continuous Learning</li>
+                    <li>Collaboration & Teamwork</li>
+                    <li>Integrity</li>
+                    <li>Creativity</li>
+                </ul>
+            </section>
+
+            <!-- Contact Section (Newsletter Registration) -->
+            <section id="contact" class="contact-form">
+                <h1>Get in Touch</h1>
+                <form action="submit_form.php" method="POST" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required minlength="2">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea id="message" name="message" required minlength="10"></textarea>
+                    </div>
+
+                    <button type="submit">Subscribe</button>
+                </form>
+            </section>
+        </main>
+
+        <aside class="right-content">
+            <!-- Blogs Section -->
+            <section id="blogs" class="blogs">
+                <h1>My Blog</h1>
+                <article class="blog-post">
+                    <h2>Artificial Intelligence</h2>
+                    <p>The increasing dependancy on Artificial Intelligence and it's imapct on various industries</p>
+                    <time datetime="2024-04-15">April 15, 2024</time>
+                    <a href="#blog1">Read More</a>
+                </article>
+
+                <article class="blog-post">
+                    <h2>CyberSecurity</h2>
+                    <p>The necessity of robust cybersecurity measures in today's digital landscape.</p>
+                    <time datetime="2024-05-20">May 20, 2024</time>
+                    <a href="#blog2">Read More</a>
+                </article>
+            </section>
+
+            <!-- Social Media Links -->
+            <section class="social-media">
+                <h1>Connect with Me/View my Progrssions</h1>
+                <ul>
+                    <li>
+                        <a href="#(linkedin link)" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i></i> LinkedIn
+                    </a>
+                </li>
+                    <li>
+                        <a href="#(github link)" target="_blank">
+                            <i class="fa-brands fa-github"></i></i> GitHub
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
+
